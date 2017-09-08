@@ -1,9 +1,3 @@
-int startX= 150;
-int startY=0;
-int endX=150;
-int endY=0;
-void setup()
-{
 strokeWeight(2);
 
 background(0);
@@ -12,6 +6,12 @@ background(0);
 }
 void draw()
 {
+  stroke(0);
+  ellipse(90, 25, 70, 70);
+  stroke(0);
+  ellipse(210, 25, 70, 70);
+    noStroke();
+  ellipse(150, 25, 100, 100);
 stroke((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256));
 while (endY<300)
 {
