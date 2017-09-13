@@ -1,3 +1,9 @@
+int startX= 150;
+int startY=0;
+int endX=150;
+int endY=0;
+void setup()
+{
 strokeWeight(2);
 
 background(0);
